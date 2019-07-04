@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gallery with an Hover and Overlay Effects</title>
+  <link rel="stylesheet" href="hover.css">
+
+</head>
+<body>
+
+    <nav class="nav">
+
+        <div></div>
+        <div></div>
+        <div></div>
+       
+        <a href="index.html">Home</a>
+        <a href="#news">News</a>
+        <a href="#surf">Surf</a>
+        <a class="active" href="hover.html">Gallery</a> 
+        </nav>
+
+       
+
+        <a class="hey">
+
+            <h3>Image Gallery with an Hover & Overlay Effect</h3>
+      
+        <img src="card1.jpg" width="200px" height="200px"> 
+      
+        </a>     
+        
+      <style>
+
+h3 {
+    margin-top: 2rem;
+    font: bolder;
+    font-size: 50px;
+    text-align: center;
+    background-color: #350222;
+    border: 1px solid black;
+    color: white;
+    animation-name: text;
+    animation: text 5s linear infinite alternate;
+  }
+
+  @keyframes text {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:salmon; left:0px; top:0px;}
+  }
+      
+      .hey img {
+          width: 400px;
+          height: 400px;
+          margin-left: 30rem;
+          position: relative;
+          background-color: #350222;
+          border-radius: 50%;
+          box-shadow: 5px 5px 80px 80px silver;
+          animation-name: card2;
+          animation: card2 4s linear 2s infinite alternate;
+      }
+      
+        
+          @keyframes card2 {
+            0%   {background-color: red; left:0px; top:0px;}
+            25%  {background-color: yellow; left:200px; top:0px;}
+            50%  {background-color: blue; left:200px; top:200px;}
+            75%  {background-color: green; left:0px; top:200px;}
+            100% {background-color: red; left:0px; top:0px;}
+        }
+      
+
+</body>
+</html>

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Order For Products</title>
+  <link rel="stylesheet" href="hover.css">
+  <script src="overlay.js"></script>
+</head>
+<body>
+
+    <nav class="nav">
+
+        <div></div>
+        <div></div>
+        <div></div>
+       
+        <a href="index.html">Home</a>
+        <a href="wears.html">Wears & Outfits</a>
+        <a href="solar.html">Solar Materials</a>
+        <!-- <a href="order.html">Place Your Order</a> -->
+        <a class="active" href="hover.html">Gallery</a> 
+        </nav>
+  
+<!-- <h4>Pls Fill the form & all Text fields are required !!!</h4> -->
+
+<!-- <form action="MAILTO:Lyndakonkwo53@gmail.com" method="post" enctype="text/plain">="order" onsubmit="myFunction()"> -->
+
+          
+  <form id ="order" onsubmit="myFunction()">
+
+    <ul class="order">
+
+    <a class="field">      
+      <label> Name </label>
+      <input type= "text" id="text" name="text" required>
+    </a><br>
+  
+      <a class="field">
+      <label> Email </label>
+      <input type="email" placeholder="E.g- baby4u@gmail.com">
+      </a><br>
+
+      <a class="field">
+        <label>Password</label>
+  <input type="password" value="" id="myInput" > 
+  <!-- <i class="fas fa-eye" onclick="mypassword()"></i> -->
+        </a>
+ <input type="checkbox" onclick="myPassword()"> Show Password<br>
+
+        <a class="field">
+            <label>Contact</label>
+            <input type="text" id="contact" name="contact" required><br>
+  
+      <a class="field1">
+      <label>Gender</label>
+      <input type="radio" name="gender">Male
+      <input type="radio" name="gender">Female
+      </a><br><br>
+
+      <a class="field">
+          <label>Residing State</label>
+          <input type="text" id="state" name="state" required><br>
+
+      <a class="field">
+        <label>Forwarding Address</label>
+        <input type="text" id="address" name="address" required><br>
+
+        <a class="field">
+          <label>Solar</label>
+      <select>
+          <option
+          value=""></option>
+  
+        <option
+        value="luminious">Luminious Inverter</option>
+
+        <option
+        value="Pack">Mac Power Battery</option>
+
+        <option
+        value="Pack">Casmio inverter</option>
+
+        <option
+        value="Pack">Su-Kan Inverter</option>
+
+        <option
+        value="Pack">Omni Power Inverter</option>
+
+        <option
+        value="Pack">SunKing Inverter </option>
+
+        <option
+        value="Pack">FR12-150 Inverter</option>
+
+        <option
+        value="Pack">Mac Power Battery</option>
+
+        <option
+        value="Pack">Prag Inverter</option>
+
+        <!-- <option
+        value="shoes">Shoes</option>
+
+        <option
+        value="clothes">Wears</option>
+
+        <option
+        value="car">Car</option>
+        <option
+        value="ear_ring">Ear rings</option>
+
+      <option
+        value="glasses"></option>
+
+      <option
+        value="solar">Solar</option> -->
+        
+    </select>
+    <br>
+
+    <a class="field">
+      <label>Shirts</label>
+  <select>
+      <option
+      value=""></option>
+
+    <option
+    value="gucci">Gucci blue shirt</option>
+
+    <option
+    value="gucci">Gucci Red Shirt</option>
+
+    <!-- <option
+    value="shoes">Shoes</option> -->
+
+    <!-- <option
+    value="clothes">Wears</option> -->
+<!-- 
+    <option
+    value="car">Car</option> -->
+    <!-- <option
+    value="ear_ring">Ear rings</option> -->
+<!-- 
+  <option
+    value="glasses"></option> -->
+
+  <!-- <option
+    value="solar">Solar</option> -->
+    
+</select>
+<br>
+
+<a class="field">
+  <label>Caps</label>
+<select>
+  <option
+  value=""></option>
+
+<option
+value="gucci">Gucci red Cap</option>
+
+<option
+value="gucci">Gucci black cap</option>
+
+<!-- <option
+value="shoes">Shoes</option> -->
+
+<!-- <option
+value="clothes">Wears</option> -->
+<!-- 
+<option
+value="car">Car</option> -->
+<!-- <option
+value="ear_ring">Ear rings</option> -->
+<!-- 
+<option
+value="glasses"></option> -->
+
+<!-- <option
+value="solar">Solar</option> -->
+
+</select>
+<br>
+
+<a class="field">
+  <label>Shoes</label>
+<select>
+  <option
+  value=""></option>
+
+<option
+value="gucci">Italian black </option>
+
+<option
+value="gucci">Sneakers</option>
+
+<!-- <option
+value="shoes">Shoes</option> -->
+
+<!-- <option
+value="clothes">Wears</option> -->
+<!-- 
+<option
+value="car">Car</option> -->
+<!-- <option
+value="ear_ring">Ear rings</option> -->
+<!-- 
+<option
+value="glasses"></option> -->
+
+<!-- <option
+value="solar">Solar</option> -->
+
+</select>
+<br>
+
+<a class="field">
+  <label>Glasses</label>
+<select>
+  <option
+  value=""></option>
+
+<option
+value="armani">Armani sky glasses</option>
+
+<option
+value="prada">Prada glasses</option>
+
+<!-- <option
+value="shoes">Shoes</option> -->
+
+<!-- <option
+value="clothes">Wears</option> -->
+<!-- 
+<option
+value="car">Car</option> -->
+<!-- <option
+value="ear_ring">Ear rings</option> -->
+<!-- 
+<option
+value="glasses"></option> -->
+
+<!-- <option
+value="solar">Solar</option> -->
+
+</select>
+<br>
+
+<a class="field">
+  <label>Ear_rings</label>
+<select>
+  <option
+  value=""></option>
+
+<option
+value="gucci">Long Ear_ring</option>
+
+<option
+value="gucci">Short Ear_ring</option>
+
+<option
+value="gucci">Dotted Ear_ring</option>
+
+<!-- <option
+value="shoes">Shoes</option> -->
+
+<!-- <option
+value="clothes">Wears</option> -->
+<!-- 
+<option
+value="car">Car</option> -->
+<!-- <option
+value="ear_ring">Ear rings</option> -->
+<!-- 
+<option
+value="glasses"></option> -->
+
+<!-- <option
+value="solar">Solar</option> -->
+
+</select>
+<br>
+
+
+      <a class="field">
+          <label>No of Options</label>
+          <input type="number"><br><br><br><br>
+         
+<a class="yes">
+<input type="submit" value="Submit">
+</a>
+      <!-- <label>Submit</label>
+      <input type="button"> -->
+
+      </ul>
+    
+       
+      <!-- <input type="submit" value="Send">
+      <input type="reset" value="Reset"> -->
+  </form>
+
+
+  <style>
+
+    body {
+      background-image: url("Power bank.jpg");
+      /* background: repeat-y;
+      background: repeat-x; */
+    }
+/* 
+    h4 {
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: aqua;
+     font-size: 30px;
+    } */
+
+    form {
+  border: 1px solid;
+  width: 22rem;
+  height: 62rem;
+  margin: auto;
+  border-radius: 30px;
+  padding: 2rem;
+  background-color: rgb(128 128 128);
+  margin-top: 0.2rem;
+  border-radius:  50px 50px;
+  box-shadow: 0px 0px 10px 10px rgba(255, 250, 250, 0.397);
+  
+}
+
+.field {
+  font-size: 20px;
+  color: green;
+}
+
+.field input {
+  border-radius: 10px 10px;
+  display: table;
+  padding: 3px;
+}
+
+.field input::placeholder {
+  color:rgb(34, 21, 216);
+  padding: 5px;
+
+}
+
+.field1 {
+  font-size: 20px;
+  color: green;
+}
+
+.field1 input {
+  border-radius: 10px 10px;
+
+}
+
+.field1 input::placeholder {
+  color:#350222;
+
+}
+
+.field select {
+  display: table;
+}
+
+/* .control textarea {
+  resize: none;
+} */
+
+.yes input {
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+ /* button a {
+  text-decoration: none;
+  color: #4e0303;
+  font-size: 14px;
+} */
+
+h4 {
+  text-transform: uppercase;
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  position: relative;
+  background-color: #350222;
+  /* top: 50%;
+  margin-left: 20rem;
+  background-color: #350222;
+  border-radius: 50%;
+  box-shadow: 5px 5px 80px 80px silver; */
+  animation-name: gallery;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+} 
+
+ @keyframes gallery {
+  0%   {background-color: red; left:0px; right:0px;}
+  25%  {background-color: yellow; right:0px; right:0px;}
+  50%  {background-color: blue; left:0px; top:0px;}
+  75%  {background-color: green; left:0px; top:0px;}
+  100% {background-color: salmon; left:0px; top:0px;}
+}
+
+</style>
+
+<!-- <p id="myInput"></p>
+
+<script>
+
+    function myFunction () {
+       alert("SUCCESSFUL");
+    }
+
+
+     function myFunction() {
+      var x =
+      docuument.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+</script> -->
+
+
+</body>
+</html>
